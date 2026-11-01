@@ -1,16 +1,44 @@
-# React + Vite
+# Food Del
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A food ordering web app covering the full customer journey, from browsing the menu to checkout and order tracking.
 
-Currently, two official plugins are available:
+Live demo: https://restaurant-app-adnan.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
 
-## React Compiler
+![Home](./screenshots/home.png)
+![Menu](./screenshots/menu.png)
+![Cart](./screenshots/cart.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse the menu and filter meals by category
+- Cart with automatic quantity and total calculation
+- Login, checkout, and order-tracking screens
+- Responsive design for mobile and desktop
+
+## Tech Stack
+
+- [React](https://react.dev/) with Hooks for state management
+- Deployed on [Netlify](https://www.netlify.com/)
+
+## Getting Started
+
+git clone https://github.com/Adnan-AlTellawy/food-del.git
+cd food-del
+npm install
+npm run dev
+Then open the local address shown in your terminal.
+
+## Notes and Future Improvements
+
+This project currently uses static menu data and front-end only login, checkout, and tracking screens. Planned next steps:
+
+- Connect to a backend API for real orders and authentication
+- Persist the cart between sessions
+
+## Author
+
+Adnan Jahed Al-Tellawy — Front-End Developer
+[GitHub](https://github.com/Adnan-AlTellawy) · [LinkedIn](https://www.linkedin.com/in/adnan-altellawy-497500448) · [Portfolio](https://adnan-altellawy.netlify.app) · adnanaltellawy@gmail.com
