@@ -25,7 +25,7 @@ Live demo: https://restaurant-app-adnan.netlify.app
 
 ## Getting Started
 
-git clone https://github.com/Adnan-AlTellawy/food-del.git
+git clone https://github.com/Adnan-AlTellawy/restaurant-app
 cd food-del
 npm install
 npm run dev
