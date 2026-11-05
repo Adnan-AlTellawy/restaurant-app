@@ -1,4 +1,4 @@
-# Food Del
+# restaurant-app
 
 A food ordering web app covering the full customer journey, from browsing the menu to checkout and order tracking.
 
