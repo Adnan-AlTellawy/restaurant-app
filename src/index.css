@@ -20,8 +20,20 @@ a{
   
 }
 .app{
-  width: 80%;
+  width: min(80%, 1200px);
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .app {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .app {
+    width: calc(100% - 32px);
+  }
 }
 
 @keyframes fadein {

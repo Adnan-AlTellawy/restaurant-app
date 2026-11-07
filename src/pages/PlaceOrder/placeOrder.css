@@ -46,3 +46,19 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 560px) {
+  .place-order {
+    gap: 32px;
+    margin-top: 40px;
+  }
+
+  .place-order-left .title {
+    margin-bottom: 28px;
+  }
+
+  .place-order-left .multi-fields {
+    flex-direction: column;
+    gap: 0;
+  }
+}
